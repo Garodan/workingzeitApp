@@ -1,0 +1,22 @@
+<style>
+  ul 
+  {
+    list-style: none;
+  }
+ li img 
+  {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 100px;
+  } 
+  </style>
+<div class="jumbotron">
+  <input type="text" ng-model="search">
+  <ul>
+    <li ng-repeat="worker in workerlist | filter:search">
+      <img ng-src="{{worker.img}}" />{{worker.name}} - <em>{{worker.birthday}}</em>
+    </li>
+      
+
+  </ul>
+</div>

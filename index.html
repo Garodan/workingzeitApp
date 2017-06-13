@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <title>ZeiterfassungApp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+
+<body ng-app="zeitApp">
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#/!">ZeiterfassungsApp</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="#!zeiterfassung">Zeiterfassung</a></li>
+        <li><a href="#!zeitreview">Zeit Review</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div ng-view></div>
+
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="services/app.js"></script>
+  <script src="controllers/zeiterfassenCtrl.js"></script>
+  <script src="controllers/zeitreviewCtrl.js"></script>
+
+
+</body>
+
+</html>

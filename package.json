@@ -1,0 +1,14 @@
+{
+  "name": "zeiterfassungapp",
+  "version": "1.0.0",
+  "description": "Dies ein Zeiterfassungssystem in AngularJS und design mit Bootstrap | Wiederholungsprüfung HWR Berlin bei dem Dozenzen Robin Bedemann",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Can Kalkan",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.10"
+  }
+}
