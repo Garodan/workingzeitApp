@@ -1,32 +1,39 @@
-<div class="jumbotron">
-  <div class="form-group">
-    <label for="workerPick">Mitarbeiter auswählen:</label>
-    <select class="form-control" id="workerPick" ng-model="pickedWorker">
-    <option ng-repeat="worker in workerlist">{{worker.name}}</option>
+<link rel="stylesheet" href="assets/css/zeiterfassungs.css">
+<div class="col-sm-4">
+    <!--div class="jumbotron"-->
+    <div class="form-group">
+
+        <label for="workerPick">Mitarbeiter auswählen:</label>
+        <select class="form-control" id="workerPick" ng-model="pickedWorker" ng-click="getWorkerIndex()">
+    <option ng-repeat="worker in workerlist">{{worker}}</option>
   </select>
-  </div>
-
-  <form ng-submit="">
-    <input type="date" name="date" ng-model="pickedDate" value="{{realDate | date:'yyyy-MM-dd'}}" min="{{minDate | date:'yyyy-MM-dd'}}" />
-    <!--<input type="date" name="date" value="2008-10-15" min="2008-10-01" >-->
 
 
-    <input type="time" name="starttime" value="{{starttime}}" ng-model="starttime" placeholder="{{realTime}}" />
-    <input type="time" name="endtime" value="{{endtime}}" ng-model="endtime" />
-    <input type="submit" value="Submit" />
-  </form>
+        <form>
+            <label>Datum auswählen:</label>
+                <input type="date" name="date" ng-model="pickedDate" value="{{realDate | date:'yyyy-MM-dd'}}" min="{{minDate | date:'yyyy-MM-dd'}}"
+                    ng-Change="dateSelected()" />
+            <!--<input type="date" name="date" value="2008-10-15" min="2008-10-01" >-->
+            </br>
+            </br>
+            <label>Arbeitsbeginn:</label>
+            <input type="time" name="starttime" value="{{starttime}}" ng-model="starttime" />
+            <label>Arbeitsende:</label>
+            <input type="time" name="endtime" value="{{endtime}}" ng-model="endtime" />
 
-  <p>geleistete Arbeitszeit:</p>
-  <p>korrekte Pausenzeit:</p>
+        </form>
 
-  <p>{{realTime}}</p>
-  <p> {{worker.name}}</p>
-  <p>{{pickedDate | date:'yyyy-MM-dd'}}</p>
-
-
-
-
-
-
-
+        <button type="button" id="button" value="button" ng-click="addWorkday()">Speichern</button>
+    </div>
 </div>
+<!--/div-->
+
+<div class="col-sm-8" >
+    <!--div class="jumbotron"-->
+    <h4>durchschnittliche Arbeitszeit pro Tag:</h4>
+    <h4>geleistete Arbeitszeit: {{worktime | date:  "hh:mm"}}</h4>
+    <h4>korrekte Pausenzeit:</h4>
+    
+    <h4></h4>
+</div>
+<!--</div>-->

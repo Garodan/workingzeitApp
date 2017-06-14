@@ -1,0 +1,9 @@
+input{
+    margin: 20px;
+  }
+  label{
+    margin: 30px;
+  } 
+  .form-control {
+  width: 70%;
+}

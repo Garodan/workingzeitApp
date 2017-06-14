@@ -1,0 +1,60 @@
+{
+    "workers": [{
+            "name": "Can",
+            "birthday": "1994-04-01",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg",
+            "workdays": [{
+                "date": "2017-06-09",
+                "starttime": "08:30",
+                "endtime": "16:30"
+            }, {
+                "date": "2017-06-09",
+                "starttime": "07:30",
+                "endtime": "15:30"
+            }]
+
+        },
+        {
+            "name": "Zack",
+            "birthday": "1994-04-02",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/zack415/128.jpg",
+            "workdays": [{
+                "date": "2017-06-06",
+                "starttime": "08:35",
+                "endtime": "16:35"
+            }, {
+                "date": "2017-06-05",
+                "starttime": "07:35",
+                "endtime": "15:35"
+            }]
+        },
+        {
+            "name": "Marco",
+            "birthday": "1994-04-03",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/ripplemdk/128.jpg",
+            "workdays": [{
+                "date": "2017-06-04",
+                "starttime": "08:40",
+                "endtime": "16:40"
+            }, {
+                "date": "2017-06-03",
+                "starttime": "07:40",
+                "endtime": "15:40"
+            }]
+        },
+        {
+            "name": "Jina",
+            "birthday": "1994-04-04",
+            "img": "https://s3.amazonaws.com/uifaces/faces/twitter/jina/128.jpg",
+            "workdays": [{
+                "date": "2017-06-02",
+                "starttime": "08:50",
+                "endtime": "16:50"
+            }, {
+                "date": "2017-06-01",
+                "starttime": "07:50",
+                "endtime": "15:50"
+            }]
+        }
+    ]
+}

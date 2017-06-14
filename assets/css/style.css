@@ -1,0 +1,26 @@
+
+
+.navbar {
+  padding: 20px;
+}
+
+body {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+   
+}
+
+
+ul 
+  {
+    list-style: none;
+  }
+ li img 
+  {
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 100px;
+  } 
+  
+  

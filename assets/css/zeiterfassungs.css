@@ -1,0 +1,25 @@
+input {
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+h4 {
+    margin: 50px;
+}
+
+#workerPick {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    
+}
+#button{
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 100%;
+}
