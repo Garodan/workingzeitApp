@@ -1,7 +1,10 @@
 {
     "workers": [{
             "name": "Can",
+            "job": "Entwickler",
             "birthday": "1994-04-01",
+            "weekhours":"40",
+            "hoursday":"8",
             "img": "https://s3.amazonaws.com/uifaces/faces/twitter/ashleyford/128.jpg",
             "workdays": [{
                 "date": "2017-06-09",
@@ -19,7 +22,10 @@
         },
         {
             "name": "Zack",
+            "job":"CEO/Entwickler",
             "birthday": "1994-04-02",
+            "weekhours":"40",
+            "hoursday":"8",
             "img": "https://s3.amazonaws.com/uifaces/faces/twitter/zack415/128.jpg",
             "workdays": [{
                 "date": "2017-06-06",
@@ -33,7 +39,10 @@
         },
         {
             "name": "Marco",
+            "job":"Systemadmin",
             "birthday": "1994-04-03",
+            "weekhours":"50",
+            "hoursday":"10",
             "img": "https://s3.amazonaws.com/uifaces/faces/twitter/ripplemdk/128.jpg",
             "workdays": [{
                 "date": "2017-06-04",
@@ -47,7 +56,10 @@
         },
         {
             "name": "Jina",
+            "job": "Support",
             "birthday": "1994-04-04",
+            "weekhours":"32",
+            "hoursday":"06:40",
             "img": "https://s3.amazonaws.com/uifaces/faces/twitter/jina/128.jpg",
             "workdays": [{
                 "date": "2017-06-02",

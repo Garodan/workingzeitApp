@@ -8,9 +8,9 @@
     <input type="text" ng-model="search" placeholder="Mitarbeiter Suche">
     <ul>
       <li ng-repeat="worker in workerlist.workers | filter:search">
-        <img ng-src="{{worker.img}}" />{{worker.name}} - <em>{{worker.birthday}}</em></br>
-        <label>Arbeitsstunden pro Woche : {{worker.workdaysweek}}</label>
-        <label>Durchschnittszahl pro Tag : {{worker.averageHour}}</label>
+        <img ng-src="{{worker.img}}" /><strong>{{worker.name}}</strong> | <span class="label label-info">{{worker.job}}</span> | <em>{{worker.birthday}}</em></br>
+        <label>Arbeitsstunden pro Woche : {{worker.weekhours}}</label>
+        <label>Durchschnittszahl pro Tag : {{worker.hoursday}}</label>
         <label>Gesamtzeit pro Woche : {{worker.workallWeek}}</label>
         <label>Wochensaldo : {{worker.thisWeek}}</label>
         <div class="progress">
